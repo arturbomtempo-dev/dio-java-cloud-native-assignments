@@ -1,4 +1,4 @@
-package dev.arturbomtempo.flowcontrol.exception;
+package exception;
 
 public class InvalidParametersException extends Exception {
     public InvalidParametersException(String message) {

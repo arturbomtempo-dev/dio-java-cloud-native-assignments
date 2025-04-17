@@ -1,4 +1,4 @@
-package dev.arturbomtempo.bankaccount.model;
+package model;
 
 public class BankAccount {
 

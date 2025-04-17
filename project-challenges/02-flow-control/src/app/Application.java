@@ -1,6 +1,8 @@
+package app;
+
 import java.util.Scanner;
 
-import dev.arturbomtempo.flowcontrol.exception.InvalidParametersException;
+import exception.InvalidParametersException;
 
 public class Application {
     public static void count(int firstParameter, int secondParameter) throws InvalidParametersException {

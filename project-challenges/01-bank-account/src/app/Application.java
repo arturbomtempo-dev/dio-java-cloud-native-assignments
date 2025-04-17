@@ -1,8 +1,8 @@
-package dev.arturbomtempo.bankaccount.app;
+package app;
 
 import java.util.Scanner;
 
-import dev.arturbomtempo.bankaccount.model.BankAccount;
+import model.BankAccount;
 
 public class Application {
 
