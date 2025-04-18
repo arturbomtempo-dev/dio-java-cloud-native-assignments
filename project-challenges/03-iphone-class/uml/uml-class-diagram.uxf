@@ -1,0 +1,31 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>190</x><y>60</y><w>430</w><h>240</h></coordinates><panel_attributes>Iphone
+--
+- currentMusic: String
+- currentNumber: String
+- currentUrl: String
+--
++ Iphone(currentMusic: String, currentNumber: String, currentUrl: String)
++ play()
++ pause()
++ selectMusic(music: String)
++ call(number: String)
++ answer()
++ startVoicemail()
++ displayPage(url: String)
++ addNewTab()
++ refreshPage()</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>60</x><y>430</y><w>210</w><h>90</h></coordinates><panel_attributes>&lt;&lt;interface&gt;&gt;
+MusicPlayer
+--
++ play()
++ pause()
++ selectMusic(music: String)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>320</x><y>430</y><w>210</w><h>90</h></coordinates><panel_attributes>&lt;&lt;interface&gt;&gt;
+Phone
+--
++ call(number: String)
++ answer()
++ startVoicemail()</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>590</x><y>430</y><w>210</w><h>90</h></coordinates><panel_attributes>&lt;&lt;interface&gt;&gt;
+InternetBrowser
+--
++ displayPage(url: String)
++ addNewTab()
++ refreshPage()</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>170</x><y>290</y><w>130</w><h>160</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>110;10;10;140</additional_attributes></element><element><id>Relation</id><coordinates><x>410</x><y>290</y><w>30</w><h>160</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;140</additional_attributes></element><element><id>Relation</id><coordinates><x>560</x><y>290</y><w>140</w><h>160</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;120;140</additional_attributes></element></diagram>
